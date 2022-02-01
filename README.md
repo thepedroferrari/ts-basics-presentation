@@ -14,13 +14,13 @@
 
 |                                        | Why TypeScript                                                                                                                                                                                                                                                                                     |
 | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![h:390](./most-popular-language.jpeg) | - TypeScript is the language that will power the next generation of apps, IoTs, Node projects and the web. <br><br> - It will reduce the necessary amount of unit tests by type-checking everything at compile time. <br><br> - It will increase the safety of your code by reducing humans error. |
+| ![h:390](./presentation/most-popular-language.jpeg) | - TypeScript is the language that will power the next generation of apps, IoTs, Node projects and the web. <br><br> - It will reduce the necessary amount of unit tests by type-checking everything at compile time. <br><br> - It will increase the safety of your code by reducing humans error. |
 
 ---
 
 ## What would you need TypeScript for?
 
-![bg left](./javascript-sum.png)
+![bg left](./presentation/javascript-sum.png)
 
 ```ts
 const sum = (x: number, y: number): number => x + y;
@@ -33,7 +33,7 @@ sum("11", 1);
 
 # Should you even bother with tests?
 
-![h:550](./unit-tests.jpeg)
+![h:550](./presentation/unit-tests.jpeg)
 
 ---
 
@@ -47,13 +47,13 @@ sum("11", 1);
 
 # Companies in 2022
 
-![h:550](./companies-nowadays.jpeg)
+![h:550](./presentation/companies-nowadays.jpeg)
 
 ---
 
 |                             | The Typechecker                                                                                                                                                                                                                                                                                                                                                                                   |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![h:550](./typesafety.jpeg) | The typechecker is the magic behind TypeScript. <br> - What you write goes through a compiler. <br> - The compiler transforms that into an AST <br> - Compiler converts the AST into bytecode <br> - Bytecode is fed to runtime <br> <br> \* AST: Abstract Syntax Tree, a data structure that ignores things like spaces and comments <br> \* Bytecode: A lower level representation of your code |
+| ![h:550](./presentation/typesafety.jpeg) | The typechecker is the magic behind TypeScript. <br> - What you write goes through a compiler. <br> - The compiler transforms that into an AST <br> - Compiler converts the AST into bytecode <br> - Bytecode is fed to runtime <br> <br> \* AST: Abstract Syntax Tree, a data structure that ignores things like spaces and comments <br> \* Bytecode: A lower level representation of your code |
 
 ---
 
@@ -122,7 +122,7 @@ if (typeof a === "number") {
 
 ## Basic Types: any
 
-![bg left](./any-type.jpeg)
+![bg left](./presentation/any-type.jpeg)
 
 By default all types go back to any and it must be avoided.
 
@@ -511,7 +511,7 @@ function sortNumbersBy<T, K extends keyof T>(
 - [Free Code Camp](https://www.freecodecamp.org/news/learn-typescript-beginners-guide/)
 - [TypeScript Playground](https://www.typescriptlang.org/play/)
 
-![bg left contain](./oreilly-programming-typescript.jpeg)
+![bg left contain](./presentation/oreilly-programming-typescript.jpeg)
 
 ---
 
